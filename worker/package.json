@@ -1,0 +1,19 @@
+{
+  "name": "event-processing",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "type": "module",
+  "dependencies": {
+    "bullmq": "^5.66.5",
+    "ioredis": "^5.9.2",
+    "pino": "^10.2.1",
+    "pino-pretty": "^13.1.3"
+  }
+}
