@@ -18,7 +18,7 @@ const worker = new Worker(
     );
 
     // Simulate work
-    await new Promise((res) => setTimeout(res, 50000));
+    await new Promise((res) => setTimeout(res, 10000));
 
     logger.info(
       {
